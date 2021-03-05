@@ -1,0 +1,179 @@
+/*********** Body ****************/
+html, body {
+	background-color: #559E54;
+	height: 99%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+}
+#main {
+	flex: 1 0 auto;
+}
+/*********** Footer ****************/
+footer{
+    color: #EBF7D4;
+    text-align: center;
+    background: #091D34;
+	height: 3%;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+/************nav stuff*********************/
+div.myNavBar{
+    height: 45px;
+}
+ul.myNav li{
+    display: inline;
+    padding: 10px 22px;
+    background-color: #091D34;
+    margin: 2px;    
+}
+ul.myNav li a{
+    text-decoration: none;
+    background-color: #091D34;
+    color: #EBF7D4;
+    font-size: large;
+	font-weight: bold;
+}
+ul.myNav li a:hover{
+    font-style: italic;
+	text-shadow: 1px 1px #EBF7D4;
+}
+.login {
+    float: right;
+	background-color: #091D34
+}
+
+/********** Forms *********************/
+.separator {
+	border: 1px solid black;
+	padding: 2%;
+}
+form {
+    border-radius: 40px;
+    padding: 20px;
+    background-color: #EBF7D4;
+	color: #236AB9;    
+	margin: 3%;
+}
+h1 {
+    text-align: center;
+    margin: 2%;
+}
+.asterisk{
+    color: red;
+}
+.asterisk2, .asterisk3 {
+    color: #808080;
+}
+
+.inputRow{
+	display: block;
+    padding: 10px;
+}
+.myLabel{
+    margin: 1px;
+    display: inline;
+    padding-top: 2px; 
+    padding-right: 5px; 
+    width: 200px;
+    text-align: right; 
+    float: left;
+}
+.myInput{
+    margin: 2px; 
+    padding: 2px; 
+    display: inline-block; 
+    font-size: 100%; 
+    width: 70%;
+    padding-left: 5px;
+	border-radius: 10px;
+}
+.upload{
+	border: 1px solid gray;
+	background-color: white;
+	display: inline-block;
+	width: 50%;
+	padding-left: 5px;
+	border-radius: 10px; 	
+}
+.uploadInput{
+    margin: 5px 2px; 
+    padding: 2px; 
+    display: inline-block; 
+    font-size: 100%;
+    width: 80%;
+}
+#image_uploads{
+	width: 50%;
+}
+img {
+	display: inline-block;
+	height: 100px;
+	margin-right: 10%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.buttonsRow{
+	margin-left: 70%;
+	color: #091D34;
+}
+.buttons{
+    display: inline-block;
+    width: 40%;
+    font-size: medium;
+	margin: 2%;
+	padding: 2%;
+}
+/********** Radio Button Section *********************/
+#BookTypes{
+	width: 80%;
+	margin: 2% 10%;
+}
+.TextBookForm, .GeneralForm{
+	border: 1px solid #236AB9;
+    border-radius: 20px;
+    padding: 2%;
+	width: 48%;
+}
+.myLabel2{
+    padding-top: 2px; 
+    width: 110px;
+    text-align: right; 
+}
+.myInput2{
+	margin: 2px; 
+    padding: 2px; 
+    display: inline-block; 
+    font-size: 100%;
+    padding-left: 5px;
+	border-radius: 10px;
+}
+#progRow select, .courseRow select{
+	width: auto;
+	margin: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: 100%;
+    padding-left: 5px;
+	border: 1px solid gray;
+	background-color: white;
+}
+.TextBookForm {
+    float:left;
+}
+.GeneralForm {
+    float: right;
+    margin-bottom: 5%;
+}	
+.radioLabel {
+    color: #236AB9;
+    font-weight: bold;   
+}
+.button{
+	margin: 1% 5% 1% 60%;
+}

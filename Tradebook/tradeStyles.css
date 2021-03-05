@@ -1,0 +1,202 @@
+/*********** Body ****************/
+html, body {
+	background-color: #FBA90A;
+	height: 99%;
+}
+body {
+  	display: flex;
+  	flex-direction: column;
+    font-family: sans-serif;
+}
+#main {
+  flex: 1 0 auto;
+}
+/*********** Footer ****************/
+footer{
+    color: #EBF7D4;
+    text-align: center;
+    background: #091D34;
+	height: 3%;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+/************nav stuff*********************/
+div.myNavBar{
+    height: 45px;
+}
+ul.myNav li{
+    display: inline;
+    padding: 10px 22px;
+    background-color: #091D34;
+    margin: 2px;    
+}
+ul.myNav li a{
+    text-decoration: none;
+    background-color: #091D34;
+    color: #EBF7D4;
+    font-size: large;
+	font-weight: bold;
+}
+ul.myNav li a:hover{
+    font-style: italic;
+	text-shadow: 1px 1px #EBF7D4;
+}
+.login {
+    float: right;
+	background-color: #091D34
+}
+/************Results********************/
+
+section{
+	box-sizing: border-box;
+	float: left;
+	width: 60%;
+}
+aside{
+	box-sizing: border-box;
+	float: left;
+	width: 40%;
+	height: 150%;
+}
+h2, p{
+	text-align: center;
+	font-weight: bold;
+    display: inline;
+	margin: 1%;
+	color: #342E09;
+}
+.bookInfo {
+	background-color: #D4EDF7;
+	border-radius: 40px;
+	height: 200px;
+	padding: 20px;
+	margin: 20px 10px;
+}
+.bookInfo2 {
+	background-color: #F7E3D4;
+	border-radius: 40px;
+	height: 200px;
+	padding: 20px;
+	margin: 20px 10px;
+}
+.bookimg{
+	display: table-cell;
+	padding: 10px;
+	vertical-align: top;
+}
+.bookimg img{
+  	max-width: 100px;
+  	height: auto;
+	object-fit: scale-down;
+}
+.bookDescription{
+	display: table-cell;
+	padding: 10px;
+	margin:  10px;
+}
+.bookDescription p{
+	color:#342E09;
+	padding: 0px;
+	margin: 5px;
+}
+.bookDescription span{
+	color:#342E09;
+	padding: 0px;
+	margin: 10px;
+}
+h3{
+	font-weight: bold;
+    font-style: italic;
+	margin: 5%;
+	padding: 10px;
+	color: #342E09;
+}
+.otherbooksbookimg{
+	margin: 1%;
+	padding: 1%;
+}
+/*img{
+	height: 150px;
+	width: 100px;
+	object-fit: scale-down;
+}*/
+
+input.prev, input.next{
+    display: inline;
+    padding: 5px 11px;
+    margin: 2px;    
+    text-decoration: none;
+    background-color: #091D34;
+    color: #EBF7D4;
+    font-size: large;
+	font-weight: bold;
+	border: 1px solid #091D34;
+}
+/************* Image Modal Css *************/
+html{
+  font-family: "Helvetica Neue", sans-serif;
+  width:100%;
+  color:#666666;
+}
+
+.popup-overlay{
+  /*Hides pop-up when there is no "active" class*/
+  visibility:hidden;
+  position:absolute;
+  background:#ffffff;
+  border:3px solid #666666;
+  width:50%;
+  height:90%;
+  left:25%; 
+}
+.popup-overlay.active{
+  /*displays pop-up when "active" class is present*/
+  visibility:visible;
+  text-align:center;
+}
+
+.popup-content {
+  /*Hides pop-up content when there is no "active" class */
+ visibility:hidden;
+}
+
+.popup-content.active {
+  /*Shows pop-up content when "active" class is present */
+  visibility:visible;
+}
+
+button{
+  display:inline-block;
+  vertical-align:middle;
+  border-radius:30px;
+  margin:.20rem;
+  font-size: 1rem;
+  color:#666666;
+  background:   #ffffff;
+  border:1px solid #666666;  
+}
+
+button:hover{
+  border:1px solid #666666;
+  background:#666666;
+  color:#ffffff;
+}
+.popup-content.active img.imgs{
+	height: 550px;
+	width: 600px;
+	object-fit: scale-down;
+}
+.popup-content.active h2{
+	color: black;
+}
+
+.closeButton{
+	display: block;
+	margin-top: 10px;
+}
+.titleArea {
+	display: block;
+	margin-bottom: 1%;
+}

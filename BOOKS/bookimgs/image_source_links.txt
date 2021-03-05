@@ -1,0 +1,60 @@
+//book 1 - careers book
+//https://www.goodreads.com/book/show/14532591-the-career-book
+
+//book 2 - economics
+//https://us.letgo.com/en/i/mcconnell-brue-flynn-economics-book_4a11e483-4ca1-4d00-982b-cd368c7998e3
+
+//book 3 - kids book
+//https://bookoutlet.ca/Store/Details/9780374360979B/the-pout-pout-fish
+
+//book 4- corn farming
+// https://www.amazon.com/SWEET-CORN-FARMING-Grow-Sweet-ebook/dp/B07LGCKDP6
+
+//book 5 - twilgiht book
+//https://www.amazon.com/Twilight-Saga-Book-1/dp/0316015849
+
+//book 6 - surivival medicine 
+//https://www.amazon.com/SURVIVAL-MEDICINE-Encountered-Situations-Survivalist-ebook/dp/B018VK98SK
+
+//book 7 - spring gardening
+//https://www.amazon.com/Spring-Gardening-Top-20-Quick-Growing-Vegetables/dp/1543216307
+
+//book 8 - python web programming
+//https://www.amazon.ca/Python-Web-Programming-Steve-Holden/dp/0735710902
+
+//book 9 - fire safety
+//https://hspublications.ie/product/fire-safety-book/
+
+//book 10 - Anthropology textbook
+//https://ca.letgo.com/en/i/essentials-of-physical-anthropology-textbook_06dc3a64-d054-4698-a0b9-7bf22af628f0
+
+//book 11 - CPA book
+//https://www.amazon.com/Wiley-CPAexcel-Review-Study-Guide/dp/1119481074
+
+//book 12 - intro to sociology
+//https://opentextbc.ca/introductiontosociology/
+
+//book 13 - tourism book
+//http://people.wku.edu/rich.patterson/CFS-271/Webpage/271textbook.htm
+
+//book 14 - abstract art
+// https://www.amazon.com/Abstract-Art-Painting-Expressions-Mixed/dp/1440335842
+
+//book 15 - media studies 101
+//https://opentextbc.ca/mediastudies101/
+
+//book 16 - harry potter
+// https://en.wikipedia.org/wiki/Harry_Potter_and_the_Order_of_the_Phoenix
+
+//book 17 - cooking labensky
+//https://www.amazon.ca/Cooking-Textbook-Culinary-Fundamentals-5th/dp/013715576X
+
+//book 18 - diary of a wimpy kid
+//https://www.amazon.co.uk/Diary-Wimpy-Kid-Book-1/dp/0141324902
+
+//book 19 - dan brown origin
+//https://www.nytimes.com/books/best-sellers/2018/08/12/
+
+//book 20 - dr suess book of colors
+//https://www.barnesandnoble.com/w/dr-seusss-book-of-colors-dr-seuss/1126606549#/
+

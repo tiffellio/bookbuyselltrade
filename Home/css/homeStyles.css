@@ -1,0 +1,191 @@
+/*********** Body ****************/
+html, body {
+	height: 99%;
+}
+body {
+  	display: flex;
+  	flex-direction: column;
+	font-family: sans-serif;
+}
+#main {
+  	flex: 1 0 auto;
+}
+/*********** Footer ****************/
+footer{
+    color: #EBF7D4;
+    text-align: center;
+    background: #091D34;
+	height: 3%;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+/*********** Header ****************/
+header{
+	box-sizing: border-box;
+	padding: 10px 22px;
+	border-bottom: 2px solid #00264d;
+}
+.viuLogo{
+	display: table-cell;
+}
+#viuLogo{
+	height: 90px;
+}
+.head {
+	display: table-cell;
+    color: #00264d;
+	width: 90%;
+	padding: 10px 22px;
+}
+.login{
+	display: table-cell;
+	margin-left:90%;
+}
+ul.login li{
+    float: right;
+    padding: 10px 22px;
+    background-color: #00264d;
+}
+ul.login li a{
+	display: table-cell;	
+    text-decoration: none;
+    background-color: #00264d;
+    color: white;
+    font-size: large;
+	font-weight: bold;
+}
+ul.login li a:hover{
+    font-style: italic;
+	text-shadow: 1px 1px #EBF7D4;
+}
+body{
+    color: #00264d;
+    font-family: sans-serif;
+}
+/************nav stuff*********************/
+div.myNavBar{
+    height: 45px;
+	margin: 40px 0px; 
+}
+ul.myNav li{
+    display: inline;
+    padding: 15px 22px;
+    background-color: #00264d;
+    margin: 2px;    
+}
+ul.myNav li a{
+    text-decoration: none;
+    background-color: #00264d;
+    color: white;
+    font-size: large;
+	font-weight: bold;
+}
+ul.myNav li a:hover{
+    font-style: italic;
+	text-shadow: 1px 1px #EBF7D4;
+}
+/********************Image Gallery****************/
+.subhead {
+    padding-left: 5%;
+}
+.Books {
+	box-sizing: border-box;
+    border: 2px solid #00264d;
+	margin: 30px 40px;
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.column {
+	float: left;
+	margin: 0.5%;
+	padding: 0.5% 0%;
+	height: 180px;
+}
+.column img{
+	height: 150px;
+	width: 100px;
+	object-fit: scale-down;
+}
+.more{
+	margin-top: 7%;
+	margin-right: 2%;	
+    float: right;
+    padding: 10px 22px;
+    background-color: #00264d;
+}
+.more a{
+	display: table-cell;	
+    text-decoration: none;
+    background-color: #00264d;
+    color: white;
+    font-size: large;
+	font-weight: bold;
+}
+.more a:hover{
+    font-style: italic;
+	text-shadow: 1px 1px #EBF7D4;
+}
+
+/********************* Image Modal Css ************/
+html{
+  font-family: "Helvetica Neue", sans-serif;
+  width:100%;
+  color:#666666;
+}
+
+.popup-overlay{
+  /*Hides pop-up when there is no "active" class*/
+  visibility: hidden;
+  position: absolute;
+  background:#ffffff;
+  border:3px solid #666666;
+  width:40%;
+  height:90%;
+  left:25%; 
+}
+.popup-overlay.active{
+  /*displays pop-up when "active" class is present*/
+  visibility:visible;
+  text-align:center;
+}
+
+.popup-content {
+  /*Hides pop-up content when there is no "active" class */
+ visibility:hidden;
+}
+
+.popup-content.active {
+  /*Shows pop-up content when "active" class is present */
+  visibility:visible;
+}
+.closeButton{
+	display: block;
+	margin-top: 10px;
+}
+button{
+  display: inline-block;
+  vertical-align: middle;
+  border-radius:30px;
+  margin:.20rem;
+  font-size: 1rem;
+  color:#666666;
+  background:   #ffffff;
+  border:1px solid #666666;  
+}
+
+button:hover{
+  border:1px solid #666666;
+  background:#666666;
+  color:#ffffff;
+}
+.popup-content.active img.open{
+	height: 600px;
+	width: 600px;
+	object-fit: scale-down;
+}
+
